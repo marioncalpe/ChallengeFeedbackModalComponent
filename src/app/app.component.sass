@@ -1,0 +1,100 @@
+.content
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    background-color: #D0CBF3
+    width: 100%
+    height: 100%
+    padding: 5rem
+
+    .pop-up
+        display: flex
+        flex-grow: 1
+        flex-direction: column
+        position: relative
+        flex-wrap: wrap
+        // width: 920px
+        // height: 444px
+        background-color: #1A1832
+        padding: 2rem
+        border-radius: 10px
+        .closebutton
+            display: flex
+            align-items: center
+            justify-content: center
+            cursor: pointer
+            position: absolute
+            top: 10px
+            right: 10px
+            cursor: pointer
+            mat-icon
+                cursor: pointer
+                color: #DADADA
+                background-color: transparent
+                border: none
+                outline: none
+            
+        .text
+            display: flex
+            flex-grow: 1
+            font-size: 26px
+            // font-weight: bold
+            color: white
+            text-align: center
+            padding: 2rem
+        .note
+            display: flex
+            flex-grow: 1
+            flex-direction: row
+            gap: 1rem
+            justify-content: space-between
+            padding-bottom: 1rem
+            .number
+                display: flex
+                align-items: center
+                justify-content: center
+                color: #B1B9D8
+                font-size: 28px
+                font-weight: regular
+                background-color: #1A2036
+                border: 1px solid #2E3650
+                border-radius: 10px
+                // padding: 0.5rem 1rem
+                min-height: 3rem
+                min-width: 3rem
+                cursor: pointer
+                &:hover
+                    font-weight: bold
+                    border: 1px solid #B1B9D8
+        .ranting
+            display: flex
+            flex-grow: 1
+            justify-content: space-between
+            font-family: Inter, sans-serif
+            font-size: 14px
+            color: #E7E7E7
+        .button
+            display: flex
+            flex-grow: 1
+            flex-direction: row
+            justify-content: space-between
+            padding-top: 2rem
+            button
+                margin-top: 10px
+                padding: 0.7rem 2.5rem
+                color: white
+                border-radius: 5px
+                cursor: pointer
+                font-size: 16px
+            .cancel
+                background-color: #1A1832
+                border: 1px solid #7A58F4
+                &:hover
+                    background-color: #7A58F4
+            .submit
+                background-color: #7A58F4
+                border: 1px solid #7A58F4
+                &:hover
+                    background-color: #1A1832
+                    border: 1px solid #7A58F4
