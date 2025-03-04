@@ -20,12 +20,20 @@ export class AppComponent {
     const modal = document.getElementById('pop-up');
     if (modal != null) {
       modal.style.display = 'block';
+      const button = document.getElementById('button');
+      if (button != null) {
+        button.style.display = 'none';
+      }
     }
   }
   closebydocuement() {
     const modal = document.getElementById('pop-up');
     if (modal != null) {
       modal.style.display = 'none';
+      const button = document.getElementById('button');
+      if (button != null) {
+        button.style.display = 'block';
+      }
     }
   }
   //-----------------------//

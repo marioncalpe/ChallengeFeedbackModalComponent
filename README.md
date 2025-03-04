@@ -26,17 +26,21 @@ Dans ce défi, vous apprendrez à construire des composants d’interface utilis
 
 **Exigences**
 
-- La composante modale de rétroaction devrait être déclenchée par un bouton et elle devrait apparaître comme une superposition modale en haut de la page active.
+- La composante modale de rétroaction devrait être déclenchée par un bouton et elle devrait apparaître comme une superposition modale en haut de la page active. 
+<!-- ** CHECK ** -->
 - Le modal devrait inclure une échelle de notation qui permet aux utilisateurs d’évaluer un produit sur une échelle de 1 à 10.
-- Les utilisateurs devraient être en mesure de sélectionner une note en cliquant sur un nombre dans l’échelle.
-- Le modal devrait fermer lorsque l’utilisateur soumet son commentaire.
+<!-- ** CHECK ** -->
+- Les utilisateurs devraient être en mesure de sélectionner une note en cliquant sur un nombre dans l’échelle.<!-- ** CHECK ** -->  
+<!-- *TODO CHECK BUT UPDATE AMELIORATION ** --> 
+- Le modal devrait fermer lorsque l’utilisateur soumet son commentaire. 
+<!-- ** CHECK ** --> 
+<!-- *TODO AJOUT TEXTE ** --> 
 - Le modal doit se fermer en cliquant sur un bouton « Annuler » ou en cliquant à l’extérieur du modal.
+<!-- ** CHECK ** --> 
 - Le composant doit être réactif et s’afficher correctement sur différentes tailles d’écran.
+<!-- *TODO IN THE BIG SHIT ** --> 
 - Faites en sorte que cette page de destination ressemble le plus possible au design.
-
-J’espère que vous apprécierez la construction de ce défi.
-
-N’hésitez pas à partager votre solution sur le site Web ou les médias sociaux et [tag us] (https://twitter.com/FrontendProHQ).
+<!-- ** CHECK ** --> 
 
 Ce projet a été généré avec [Angular CLI] (https://github.com/angular/angular-cli) version 18.0.4.
 
@@ -68,8 +72,6 @@ In this frontend challenge, you'll learn how to build interactive UI components 
 - Make this landing page look as close to the design as possible.
 
 I hope you'll enjoy building this challenge.
-
-Feel free to share your solution on the website or on social media and [tag us](https://twitter.com/FrontendProHQ).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
 
