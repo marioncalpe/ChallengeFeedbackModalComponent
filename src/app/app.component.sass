@@ -9,41 +9,32 @@
     padding: 5rem
     /* Styles pour les écrans de taille moyenne (tablettes) */
     @media (max-width: 1024px) 
+        padding: 1rem
         .pop-up 
             max-width: 60%
             padding: 1.5rem
-        
-
         .text 
             font-size: 22px
             padding: 1.5rem
-        
-
         .number 
-            font-size: 24px
-            min-height: 2.5rem
-            min-width: 2.5rem
-    
+            font-size: 16px
+            min-height: 0.5rem
+            min-width: 0.5rem
 
 
     /* Styles pour les petits écrans (smartphones) */
     @media (max-width: 600px) 
+        padding: 10px
         .pop-up 
             max-width: 80%
             padding: 1rem
-        
-
         .text 
             font-size: 18px
             padding: 1rem
-        
-
         .number 
-            font-size: 20px
-            min-height: 2rem
-            min-width: 2rem
-        
-
+            font-size: 16px
+            min-height: 0.5rem
+            min-width: 0.5rem
         .button button 
             padding: 0.5rem 2rem
             font-size: 14px
@@ -55,11 +46,14 @@
         position: relative
         flex-wrap: wrap
         max-width: 40%
-        max-height: 50%
         background-color: #1A1832
         padding: 2rem
         margin: 2rem
         border-radius: 10px
+        @media (max-width: 1024px) 
+            max-width: 40%
+        @media (max-width: 600px) 
+            max-width: 70%
         .closebutton
             display: flex
             align-items: center
@@ -88,13 +82,19 @@
             display: flex
             flex-grow: 1
             flex-direction: row
+            flex-wrap: wrap
             gap: 1rem
             justify-content: space-between
             padding-bottom: 1rem
+            @media (max-width: 1024px) 
+                gap: 0.5rem
+            @media (max-width: 600px) 
+                gap: 0.5rem
             .number
                 display: flex
                 align-items: center
                 justify-content: center
+                flex-wrap: wrap
                 color: #B1B9D8
                 font-size: 28px
                 font-weight: regular
