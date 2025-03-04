@@ -31,7 +31,6 @@ Dans ce défi, vous apprendrez à construire des composants d’interface utilis
 - Le modal devrait inclure une échelle de notation qui permet aux utilisateurs d’évaluer un produit sur une échelle de 1 à 10.
 <!-- ** CHECK ** -->
 - Les utilisateurs devraient être en mesure de sélectionner une note en cliquant sur un nombre dans l’échelle.<!-- ** CHECK ** -->  
-<!-- *TODO CHECK BUT UPDATE AMELIORATION ** --> 
 - Le modal devrait fermer lorsque l’utilisateur soumet son commentaire. 
 <!-- ** CHECK ** --> 
 <!-- *TODO AJOUT TEXTE ** --> 
