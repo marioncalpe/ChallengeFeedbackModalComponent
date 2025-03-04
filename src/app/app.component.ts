@@ -13,6 +13,12 @@ import { FormsModule } from '@angular/forms'; // Si vous utilisez ngModel
 })
 export class AppComponent {
   title = 'ChallengeFeedbackModalComponent';
+  ratings = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  selectedRating: number | undefined = undefined;
+
+  selectRating(ranting: number) {
+    this.selectedRating = ranting;
+  }
   //-------------------------------//
   // function open and close popup //
   //-------------------------------//
@@ -24,6 +30,12 @@ export class AppComponent {
       if (button != null) {
         button.style.display = 'none';
       }
+      const gif = document.querySelectorAll('img');
+      if (gif != null) {
+        gif.forEach((img) => {
+          img.style.display = 'none';
+        });
+      }
     }
   }
   closebydocuement() {
@@ -34,18 +46,14 @@ export class AppComponent {
       if (button != null) {
         button.style.display = 'block';
       }
+      
     }
   }
   //-----------------------//
   // function save ratings //
   //-----------------------//
 
-  ratings = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  selectedRating: number | undefined = undefined;
-
-  selectRating(ranting: number) {
-    this.selectedRating = ranting;
-  }
+  
 
   onSubmit() {
     if (this.selectedRating !== undefined) {   

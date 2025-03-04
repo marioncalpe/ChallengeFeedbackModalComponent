@@ -22,10 +22,11 @@
         <div class="number">9</div>
         <div class="number">10</div> -->
         <button
-        type="button" class="number"
-        *ngFor="let rating of ratings"
-        [class.selected]="selectedRating === rating"
-        (click)="selectRating(rating)"
+          type="button"
+          class="number"
+          *ngFor="let rating of ratings"
+          [class.selected]="selectedRating === rating"
+          (click)="selectRating(rating)"
         >
           {{ rating }}
         </button>
@@ -40,27 +41,55 @@
       </div>
     </form>
   </div>
-  
-  <!-- ''''''''''''' -->
-  <!-- GIF Conteneur -->
-  <!-- ,,,,,,,,,,,,, -->
-  <div class="gif">
-    <img id="1" src="https://media.giphy.com/media/l3vR4CdLInXOhr3rO/giphy.gif">
-    <img id="2" src="https://media.giphy.com/media/vGUvq1BLXurPIAgj5y/giphy.gif">
-    <img id="3" src="https://media.giphy.com/media/UAAfjeUtuSPfuFbyiL/giphy.gif">
-    <img id="4" src="https://media.giphy.com/media/N25nrRX4rsnkY/giphy.gif">
-    <img id="5" src="https://media.giphy.com/media/SM8WjRqKBHFizvxz01/giphy.gif">
-    <img id="6" src="https://media.giphy.com/media/rrmf3fICPZWg1MMXOW/giphy.gif">
-    <img id="7" src="https://media.giphy.com/media/StKiS6x698JAl9d6cx/giphy.gif">
-    <img id="8" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDllMjV5dm1maXg1djE2eWF4eHQ0Mm1ydGw2anNmM21xdThhNnc2eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/NGOdjv8hZYfeg/giphy.gif">
-    <img id="9" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDh5YXg0bzE1eGkzNmsxcnNld3ZrNmxsbXNxcmJxb2x5NWJteXZyMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT5LMHxhOfscxPfIfm/giphy.gif">
-    <img id="10" src="https://media.giphy.com/media/14udF3WUwwGMaA/giphy.gif?cid=790b7611p8yax4o15xi36k1rsewvk6llmsqrbqoly5bmyvr3&ep=v1_gifs_search&rid=giphy.gif&ct=g">
-  </div>
+  <div>
+    <!-- ''''''''''''' -->
+    <!-- GIF Conteneur -->
+    <!-- ,,,,,,,,,,,,, -->
+    <div class="gif">
+      <img
+        id="1"
+        src="https://media.giphy.com/media/l3vR4CdLInXOhr3rO/giphy.gif"
+      />
+      <img
+        id="2"
+        src="https://media.giphy.com/media/vGUvq1BLXurPIAgj5y/giphy.gif"
+      />
+      <img
+        id="3"
+        src="https://media.giphy.com/media/UAAfjeUtuSPfuFbyiL/giphy.gif"
+      />
+      <img id="4" src="https://media.giphy.com/media/N25nrRX4rsnkY/giphy.gif" />
+      <img
+        id="5"
+        src="https://media.giphy.com/media/SM8WjRqKBHFizvxz01/giphy.gif"
+      />
+      <img
+        id="6"
+        src="https://media.giphy.com/media/rrmf3fICPZWg1MMXOW/giphy.gif"
+      />
+      <img
+        id="7"
+        src="https://media.giphy.com/media/StKiS6x698JAl9d6cx/giphy.gif"
+      />
+      <img
+        id="8"
+        src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDllMjV5dm1maXg1djE2eWF4eHQ0Mm1ydGw2anNmM21xdThhNnc2eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/NGOdjv8hZYfeg/giphy.gif"
+      />
+      <img
+        id="9"
+        src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDh5YXg0bzE1eGkzNmsxcnNld3ZrNmxsbXNxcmJxb2x5NWJteXZyMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT5LMHxhOfscxPfIfm/giphy.gif"
+      />
+      <img
+        id="10"
+        src="https://media.giphy.com/media/14udF3WUwwGMaA/giphy.gif?cid=790b7611p8yax4o15xi36k1rsewvk6llmsqrbqoly5bmyvr3&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+      />
+    </div>
 
-  <!-- '''''''''''''''' -->
-  <!-- Button Conteneur -->
-  <!-- ,,,,,,,,,,,,,,,, -->
-  <div class="play">
-    <button id="button" (click)="openbydocuement()">Rating</button>
+    <!-- '''''''''''''''' -->
+    <!-- Button Conteneur -->
+    <!-- ,,,,,,,,,,,,,,,, -->
+    <div class="play">
+      <button id="button" (click)="openbydocuement()">Rating</button>
+    </div>
   </div>
 </div>
