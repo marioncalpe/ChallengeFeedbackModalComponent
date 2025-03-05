@@ -37,7 +37,7 @@ Dans ce défi, vous apprendrez à construire des composants d’interface utilis
 - Le modal doit se fermer en cliquant sur un bouton « Annuler » ou en cliquant à l’extérieur du modal.
 <!-- ** CHECK ** --> 
 - Le composant doit être réactif et s’afficher correctement sur différentes tailles d’écran.
-<!-- *TODO IN THE BIG SHIT ** --> 
+<!-- ** CHECK ** --> 
 - Faites en sorte que cette page de destination ressemble le plus possible au design.
 <!-- ** CHECK ** --> 
 
